@@ -113,7 +113,7 @@ for line in manifest_file:
             'silent edit ' + file_name2 + '\n'
             'filetype detect\n'
             'silent file ' + file_description2 + '\n'
-            'silent diffsplit ' + file_name1 + '\n'
+            'silent vertical diffsplit ' + file_name1 + '\n'
             'filetype detect\n'
             'silent file ' + file_description1 + '\n')
 
